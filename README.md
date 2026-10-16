@@ -28,11 +28,6 @@ The design was simulated using the **Xilinx Vivado Simulator (XSim)**.
 
 The testbench applies reset, write, and read operations to verify FIFO behavior. The simulation waveform is included in this repository to illustrate the control signals, status flags, and data transfers.
 
-### Simulation Waveform
-
-![FIFO simulation waveform](docs/waveform.png)
-
-The waveform demonstrates the FIFO's operation during simulation. Refer to the waveform to observe the clock, reset, read/write enables, data signals, and FIFO status flags.
 
 ## Project Structure
 
@@ -40,8 +35,7 @@ The waveform demonstrates the FIFO's operation during simulation. Refer to the w
 Synchronous-FIFO/
 ├── FIFO.v
 ├── tb_FIFO.v
-├── docs/
-│   └── waveform.png
+├── waveform.png
 └── README.md
 ```
 
